@@ -100,25 +100,36 @@ Acesse o site em http://localhost:8080.
 Estrutura do Projeto
 A estrutura do projeto é organizada da seguinte maneira:
 ```
-css
-
 shuashoes/
 │
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── shuashoes/
-│   │   ├── resources/
-│   │   │   ├── application.properties
-│   │   │   └── static/
-│   │   │       ├── css/
-│   │   │       └── js/
-│   │   │   └── templates/
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── shuashoes/
+│   │   │   ├── br/
+│   │   │   │   └── com/
+│   │   │   │       └── shuashoeswebapp/
+│   │   │   │           └── Main.java
+│   │   ├── dao/
+│   │   │   ├── CategoriaDAO.java
+│   │   │   ├── ClienteDAO.java
+│   │   │   ├── ItensPedidosDAO.java
+│   │   │   ├── PagamentoDAO.java
+│   │   │   ├── PedidoDAO.java
+│   │   │   └── ProdutoDAO.java
+│   │   ├── infra/
+│   │   │   └── ConexaoBanco.java
+│   │   ├── model/
+│   │   │   ├── Categoria.java
+│   │   │   ├── Cliente.java
+│   │   │   ├── ItensPedido.java
+│   │   │   ├── Pagamento.java
+│   │   │   ├── Pedido.java
+│   │   │   └── Produto.java
+│   ├── resources/
+│   │   └── Script.sql
+│   ├── webapp/
+│   │   └── WEB-INF/
+│   │       └── index.jsp
 ├── pom.xml
 └── README.md
 ```
