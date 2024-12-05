@@ -189,7 +189,7 @@ git push -u origin master
 ```
 # Regras de Negócio - ShuaShoes 🏀👟
 
-Bem-vindo ao documento oficial das regras de negócio da **ShuaShoes**, uma loja virtual especializada em produtos de basquete.  
+Bem-vindo ao documento das regras de negócio da **ShuaShoes**, uma loja virtual especializada em produtos de basquete.  
 
 Nosso objetivo é oferecer uma experiência transparente, prática e segura para nossos clientes, com processos claros e bem definidos.  
 
@@ -203,12 +203,11 @@ Nosso objetivo é oferecer uma experiência transparente, prática e segura para
 
 ### **2. Catálogo de Produtos**  
 - Todos os produtos devem conter descrições detalhadas, incluindo:  
-  - Tamanho (ex.: tênis, camisetas).  
-  - Material de fabricação.  
+  - Tamanho (ex.: tênis, camisetas).    
   - Preço e descontos aplicáveis.  
   - Disponibilidade de estoque.  
-- Produtos devem ser exibidos com imagens de alta qualidade, mostrando múltiplos ângulos.  
-- O site deve permitir a busca por tipo de produto (tênis, bolas, roupas), marca, preço e tamanho.  
+- Produtos devem ser exibidos com imagens de alta qualidade.  
+- O site deve permitir a busca por preço e tamanho.  
 
 ### **3. Gestão de Estoque**  
 - Não será permitido a venda de itens fora de estoque.  
@@ -242,7 +241,6 @@ Nosso objetivo é oferecer uma experiência transparente, prática e segura para
 - O site deve usar criptografia SSL para proteger transações e dados sensíveis.  
 
 ### **10. Fidelização de Clientes**  
-- Implementar um sistema de pontos que pode ser trocado por descontos ou brindes.  
 - Enviar e-mails com promoções e novidades para clientes cadastrados (mediante consentimento).  
 
 ---
