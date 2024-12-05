@@ -187,3 +187,71 @@ bash
 git remote add origin https://github.com/seu-usuario/shuashoes.git
 git push -u origin master
 ```
+# Regras de Negócio - ShuaShoes 🏀👟
+
+Bem-vindo ao documento oficial das regras de negócio da **ShuaShoes**, uma loja virtual especializada em produtos de basquete.  
+
+Nosso objetivo é oferecer uma experiência transparente, prática e segura para nossos clientes, com processos claros e bem definidos.  
+
+---
+
+## **Regras de Negócio**  
+
+### **1. Cadastro de Clientes**  
+- Clientes devem se cadastrar para realizar compras, informando dados obrigatórios como nome completo, e-mail válido, CPF, endereço e telefone.  
+- O sistema deve validar o CPF e o formato do e-mail no momento do cadastro.  
+
+### **2. Catálogo de Produtos**  
+- Todos os produtos devem conter descrições detalhadas, incluindo:  
+  - Tamanho (ex.: tênis, camisetas).  
+  - Material de fabricação.  
+  - Preço e descontos aplicáveis.  
+  - Disponibilidade de estoque.  
+- Produtos devem ser exibidos com imagens de alta qualidade, mostrando múltiplos ângulos.  
+- O site deve permitir a busca por tipo de produto (tênis, bolas, roupas), marca, preço e tamanho.  
+
+### **3. Gestão de Estoque**  
+- Não será permitido a venda de itens fora de estoque.  
+- Estoques devem ser atualizados em tempo real com base nas vendas.  
+
+### **4. Política de Preços e Promoções**  
+- O preço final deve incluir todos os custos, como impostos e frete, antes de o cliente finalizar o pedido.  
+- Promoções devem ter regras claras, incluindo prazo de validade e quantidade máxima por cliente.  
+
+### **5. Política de Pagamento**  
+- Aceitar pagamentos por cartão de crédito, débito, PIX e boleto bancário.  
+- Oferecer parcelamento no cartão de crédito, com ou sem juros, dependendo do valor total da compra.  
+- Pedidos só serão processados após a confirmação do pagamento.  
+
+### **6. Política de Entrega**  
+- O prazo estimado deve ser exibido antes da finalização do pedido, variando conforme a localização do cliente.  
+- Oferecer frete grátis para compras acima de um valor mínimo (ex.: R$300).  
+- Clientes devem receber um código de rastreamento após o envio.  
+
+### **7. Política de Trocas e Devoluções**  
+- O cliente pode solicitar devoluções ou trocas em até 30 dias após o recebimento, caso o produto esteja em perfeitas condições.  
+- Produtos com defeitos de fabricação poderão ser devolvidos ou trocados sem custo adicional.  
+- O frete da primeira troca será gratuito; trocas adicionais podem ter custo para o cliente.  
+
+### **8. Atendimento ao Cliente**  
+- Atendimento ao cliente deve ser oferecido via chat online, e-mail e telefone.  
+- Responder solicitações de clientes em até 24 horas úteis.  
+
+### **9. Segurança e Privacidade**  
+- Informações dos clientes devem ser protegidas de acordo com a LGPD.  
+- O site deve usar criptografia SSL para proteger transações e dados sensíveis.  
+
+### **10. Fidelização de Clientes**  
+- Implementar um sistema de pontos que pode ser trocado por descontos ou brindes.  
+- Enviar e-mails com promoções e novidades para clientes cadastrados (mediante consentimento).  
+
+---
+
+## **Contribuição**  
+Se você tem sugestões para melhorar nossas regras de negócio, fique à vontade para contribuir!  
+
+---
+
+## **Licença**  
+Este documento está licenciado sob a [MIT License](./LICENSE).  
+
