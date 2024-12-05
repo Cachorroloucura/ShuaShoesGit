@@ -247,11 +247,3 @@ Nosso objetivo é oferecer uma experiência transparente, prática e segura para
 
 ---
 
-## **Contribuição**  
-Se você tem sugestões para melhorar nossas regras de negócio, fique à vontade para contribuir!  
-
----
-
-## **Licença**  
-Este documento está licenciado sob a [MIT License](./LICENSE).  
-
