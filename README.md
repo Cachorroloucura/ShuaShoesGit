@@ -44,8 +44,6 @@ Banco de Dados: PostgreSQL
 
 Controle de Versão: Git
 
-Frameworks: Spring Boot (Backend), Thymeleaf (Frontend)
-
 Ferramentas: Maven, IntelliJ IDEA
 
 Instalação
