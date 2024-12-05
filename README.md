@@ -2,7 +2,7 @@
 Este é um projeto de site para a venda de tênis de basquete. O sistema permite a visualização de produtos, cadastro de clientes, realização de compras e pagamento via Pix, além de oferecer funcionalidade de e conversão internacional de tamanhos.
 
 
-Índice
+# Índice
 
 Visão Geral
 
@@ -22,23 +22,19 @@ Conexão com o Git
 
 Conclusão
 
-Visão Geral
 
+# Funcionalidades principais:
 
-O ShuaShoes é um site de e-commerce focado na venda de tênis de basquete. O projeto envolve as seguintes funcionalidades principais:
-
-
-Exibição de produtos com filtros por tamanho, modelo e preço.
 
 Cadastro de clientes e controle de dados pessoais.
 
 Sistema de pagamento via Pix.
 
-Rastreio de entregas.
-
 Conversão de tamanhos de calçados de diferentes regiões.
 
-Tecnologias Utilizadas
+
+
+# Tecnologias Utilizadas
 
 Frontend: HTML, CSS, JavaScript
 
@@ -54,7 +50,7 @@ Ferramentas: Maven, IntelliJ IDEA
 
 Instalação
 
-Para rodar o projeto localmente, siga as etapas abaixo:
+# Para rodar o projeto localmente, siga as etapas abaixo:
 
 1. Clone o repositório
 ```
