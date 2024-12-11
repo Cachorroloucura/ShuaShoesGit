@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte - ShuaShoes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images\logo-removebg-preview.png" width="125px" alt="Logo ShuaShoes"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="products.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="suporte.html">Suporte</a></li> 
+                    <li><a href="account.html">Conta</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="Carrinho"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="Ícone Menu">
+        </div>
+    </div>
+    </div>
+    <!-- Conteúdo de Suporte -->
+    <div class="support-page">
+        <div class="container">
+            <h2>Como podemos ajudar?</h2>
+            
+            <h3>Formulário de Suporte</h3>
+            <form action="#" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="pedido">Problema com o pedido</option>
+                    <option value="pedido">Atraso na entrega</option>
+                    <option value="produto">Erro no endereço de entrega</option>
+                    <option value="outros">Produto danificado ou defeituoso</option>
+                    <option value="pedido">Cancelamento de pedido</option>
+                    <option value="pedido">Problema no pagamento</option>
+                    <option value="pedido">outro</option>
+                </select>
+    
+                <label for="mensagem">Descreva o problema e diremos como podemos ajudar em breve:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+    
+     <!-- Footer -->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                <div class="footer-col-2">
+                    <img src="images\logo-removebg-preview.png" alt="Logo" width="180px">
+                    <p>Não brilhe só nas cestas, brilhe nos pés!</p>
+        
+                
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy; 2024 ShuaShoes. Todos os direitos reservados.</p>
+        </div>
+    </div>
+
+    <!-- Script para Menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight === "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

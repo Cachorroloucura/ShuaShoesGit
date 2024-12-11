@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShuaShoes | Loja de Tênis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images\logo-removebg-preview.png" width="125px" alt="Logo ShuaShoes"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="suporte.html">Suporte</a></li>
+                        <li><a href="account.html">Conta</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="Carrinho de Compras"></a>
+                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" alt="Ícone do Menu">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Não brilhe só nas cestas <br>Brilhe nos pés!</h1>
+                    <p>Você só ira perceber o que realmente é importante na vida, quando aprender a apreciar cada detalhe.</p>
+                    <a href="products.html" class="btn">Explore Agora &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images\IndexPrincipalFoto.jpg" alt="Produto principal" class="rounded-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Produtos em Destaque -->
+    <div class="small-container">
+        <h2 class="title">Produtos em Destaque</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="products-details.html"><img src="images\Elevate 3.webp" alt="Produto 1"></a>
+                <a href="products-details.html"><h4>Elevate 3</h4></a>
+                <p>R$ 529,99</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="images\Kd 17.jpg" alt="Produto 2"></a>
+                <a href="products-details.html"><h4>kd 17</h4></a>
+                <p>R$ 799,99</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="images\LamelloMb.jpg" alt="Produto 3"></a>
+                <a href="products-details.html"><h4>Lamello Mb</h4></a>
+                <p>R$ 1099,99</p>
+            </div>
+            <div class="col-4">
+                <a href="products-details.html"><img src="images\Ja 1 Hunger.jpg" alt="Produto 4"></a>
+                <a href="products-details.html"><h4>Ja 1 Hunger</h4></a>
+                <p>R$ 799,99</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Benefícios -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images\StayLoyal2-removebg-preview.png" class="offer-img" alt="Oferta de Produtos">
+                </div>
+                <div class="col-2">
+                    <p>Exclusivo</p>
+                    <h1>Tênis com até 50% de Desconto</h1>
+                    <small>Corra antes que acabe! Os modelos selecionados estão com um desconto imperdível.</small>
+                    <a href="products.html" class="btn">Compre Agora &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Depoimentos -->
+    <div class="testimonials">
+        <div class="small-container">
+            <h2 class="title">Depoimentos de Clientes</h2>
+            <div class="row">
+                <div class="col-3">
+                    <img src="images\OIP (1).jpg" alt="Cliente 1">
+                    <p>"Os tênis da ShuaShoes são incríveis! Super confortáveis e com um design moderno. Adorei minha compra!"</p>
+                    <h3>Cristiano Penaldo</h3>
+                </div>
+                <div class="col-3">
+                    <img src="images\thumb-1920-243239.jpg" alt="Cliente 2">
+                    <p>"Atendimento excelente e entrega rápida. O modelo que comprei ficou perfeito no meu pé!"</p>
+                    <h3>Kevin de Brownie</h3>
+                </div>
+                <div class="col-3">
+                    <img src="images\OIP (2).jpg" alt="Cliente 3">
+                    <p>"Comprei o meu par de tênis para correr e não poderia estar mais feliz com a compra. Recomendo muito!"</p>
+                    <h3>Rogério Souza</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+     <!-- Footer -->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                <div class="footer-col-2">
+                    <img src="images\logo-removebg-preview.png" alt="Logo" width="180px">
+                    <p>Não brilhe só nas cestas, brilhe nos pés!</p>
+        
+                
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy; 2024 ShuaShoes. Todos os direitos reservados.</p>
+        </div>
+    </div>
+
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>

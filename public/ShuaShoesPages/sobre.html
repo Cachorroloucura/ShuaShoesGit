@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class ="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images\logo-removebg-preview.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="products.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="suporte.html">Suporte</a></li>
+                    <li><a href="account.html">Login</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onClick="menutoggle()">
+        </div>
+    </div>
+    </div>
+    <!-- Sobre Section -->
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <h1>Sobre Nós</h1>
+                <p>Nossa loja foi inspirada pelo time universitário de basquete Payday, que competiu no JIF 2024. A determinação, o espírito de equipe e a superação do time nos motivaram a criar um espaço onde qualidade, performance e estilo se encontram.
+
+                    Assim como o Payday, queremos que você se sinta parte de algo maior ao escolher nossos produtos. Cada item foi selecionado para refletir a energia e a paixão do esporte, apoiando você em cada passo da sua jornada.
+                    
+                    Junte-se a nós e seja parte dessa história.
+                    </p>
+
+                <h2>Nosso Compromisso</h2>
+                <p>Nosso compromisso é entregar o site completo e funcional para o professor Rogério na disciplina de POO. Com dedicação e empenho, buscamos criar uma plataforma que não só reflete o espírito do time Payday, mas também atende aos requisitos da matéria, garantindo um projeto bem feito e com qualidade.
+
+                    Estamos prontos para concluir esse trabalho com excelência e apresentar um site que combine aprendizado, inovação e paixão pelo basquete.</p>
+            </div>
+
+            <div class="col-2">
+                <img src="images/nos.jpg" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                <div class="footer-col-2">
+                    <img src="images\logo-removebg-preview.png" alt="Logo" width="180px">
+                    <p>Seja parte da comunidade da ShuaShoes!</p>
+        
+                
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy; 2024 ShuaShoes. Todos os direitos reservados.</p>
+        </div>
+    </div>
+
+    <script>
+        function menutoggle() {
+            var menu = document.getElementById("MenuItems");
+            if (menu.style.maxHeight == "0px") {
+                menu.style.maxHeight = "200px";
+            } else {
+                menu.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
